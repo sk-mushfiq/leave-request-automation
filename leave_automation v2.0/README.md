@@ -149,7 +149,7 @@ Then navigate to `http://localhost:8000/templates/form.html`
 ![Workflow](screenshots/workflow.png)
 
 ### Execution Results
-![Execution](screenshots/execution.png)
+![Execution](screenshots/successful execution.png)
 
 ## 🔧 Configuration
 
