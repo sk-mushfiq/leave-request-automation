@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leave Request</title>
+</head>
+<body>
+  <h2>Leave Request Form (Test)</h2>
+    <form method="post" action="http://localhost:5000/webhook">
+      <label>Name:</label><input name="employee_name"/><br>
+      <label>Department:</label><input name="department"/><br>
+      <label>Date (dd/mm/yyyy):</label><input name="leave_date"/><br>
+      <label>Reason:</label><textarea name="reason"></textarea><br>
+      <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
